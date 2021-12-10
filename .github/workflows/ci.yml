@@ -10,7 +10,6 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.0' # previous LTS
           - '1.6' # LTS
           - '1'   # latest release
         os:
