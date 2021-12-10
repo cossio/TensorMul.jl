@@ -7,11 +7,12 @@ jobs:
     name: Julia ${{ matrix.version }} - ${{ matrix.os }} - ${{ matrix.arch }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         version:
-          - '1.0'
-          - '1.6'
-          - '1'
+          - '1.0' # previous LTS
+          - '1.6' # LTS
+          - '1'   # latest release
         os:
           - ubuntu-latest
         arch:
