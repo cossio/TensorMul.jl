@@ -6,4 +6,11 @@
 [![codecov](https://codecov.io/gh/cossio/TensorMul.jl/branch/master/graph/badge.svg?token=P521M5VBQJ)](https://codecov.io/gh/cossio/TensorMul.jl)
 
 Contracting products between tensors.
-See docstrings for help.
+See documentation or docstrings for help.
+
+This package is not registered.
+Install with:
+
+```
+pkg> add https://github.com/cossio/TensorMul.jl
+```
