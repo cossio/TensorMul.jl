@@ -27,8 +27,7 @@ makedocs(
             "tensordot" => "literate/tensordot.md"
         ],
         "Reference" => "reference.md"
-    ],
-    strict = true
+    ]
 )
 
 clear_md_files(literate_dir)
